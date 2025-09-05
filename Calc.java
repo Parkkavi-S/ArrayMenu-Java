@@ -76,7 +76,7 @@ while( Flag != 1){
         else if (operator == '^'){
             double c = Math.pow(a,b);
             System.out.println("The Exponent of "+a+" and "+b+":"+c);
-            System.out.println("Do you want to continue?(yes-1 or no-0):")
+            System.out.println("Do you want to continue?(yes-1 or no-0):");
 
             int choice=input.nextInt();
             if ( choice == 1){
